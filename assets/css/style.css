@@ -577,6 +577,13 @@ h1, h2, h3, h4, h5, h6 {
   .hero-desc {
     font-size: 16px;
   }
+  .hero-content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .hero-tech-tags {
+    justify-content: center;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -736,6 +743,14 @@ section {
 .btn-case-study:hover {
   color: #2da394;
   text-decoration: none;
+}
+
+.project-card__cta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 16px;
 }
 
 /* Metrics Card */
@@ -2523,4 +2538,440 @@ section {
 
 #footer .credits a {
   color: #34b7a7;
+}
+
+/*--------------------------------------------------------------
+# Responsive - Complete
+--------------------------------------------------------------*/
+
+/* Tablet & Below (992px) */
+@media (max-width: 992px) {
+  section {
+    padding: 60px 0;
+  }
+
+  .section-header h2 {
+    font-size: 30px;
+  }
+
+  .project-card {
+    padding: 28px;
+  }
+
+  .project-card__number {
+    font-size: 56px;
+    top: 16px;
+    right: 20px;
+  }
+
+  .project-card h3 {
+    font-size: 24px;
+  }
+
+  .project-card__flow {
+    gap: 6px;
+  }
+
+  .flow-step {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  .flow-arrow {
+    font-size: 12px;
+  }
+
+  .expertise-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stack-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .builds-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .decisions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-cta h2 {
+    font-size: 28px;
+  }
+
+  .contact-cta__links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-hero .section-header h1 {
+    font-size: 36px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .showcase-card__video {
+    aspect-ratio: 16 / 10;
+  }
+}
+
+/* Mobile (768px) */
+@media (max-width: 768px) {
+  #header {
+    padding: 10px 0;
+  }
+
+  #header .logo {
+    font-size: 20px;
+  }
+
+  .nav-menu {
+    display: none !important;
+  }
+
+  .header-social-links {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+  }
+
+  .header-social-links a {
+    font-size: 14px;
+    padding-left: 4px;
+  }
+
+  .mobile-nav-toggle {
+    display: block !important;
+    right: 12px;
+    top: 14px;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+
+  .section-header h2 {
+    font-size: 26px;
+  }
+
+  .section-header p {
+    font-size: 14px;
+  }
+
+  .project-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .project-card__number {
+    font-size: 40px;
+    position: static;
+    margin-bottom: 8px;
+  }
+
+  .project-card h3 {
+    font-size: 20px;
+  }
+
+  .project-card__subtitle {
+    font-size: 12px;
+  }
+
+  .project-card__desc {
+    font-size: 14px;
+  }
+
+  .project-card__meta {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .project-card__flow {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+  }
+
+  .flow-step {
+    font-size: 10px;
+    padding: 4px 8px;
+    white-space: nowrap;
+  }
+
+  .flow-arrow {
+    font-size: 10px;
+  }
+
+  .project-card__highlights {
+    gap: 6px;
+  }
+
+  .project-card__highlights span {
+    font-size: 11px;
+    padding: 4px 10px;
+  }
+
+  .btn-case-study {
+    font-size: 13px;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .metric {
+    padding: 16px;
+  }
+
+  .metric__value {
+    font-size: 22px;
+  }
+
+  .expertise-card {
+    padding: 24px;
+  }
+
+  .expertise-card h4 {
+    font-size: 18px;
+  }
+
+  .timeline {
+    padding-left: 16px;
+  }
+
+  .timeline-item {
+    padding-left: 16px;
+  }
+
+  .timeline-item::before {
+    left: -20px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .timeline-item h4 {
+    font-size: 18px;
+  }
+
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .impact-card {
+    padding: 24px 12px;
+  }
+
+  .impact-card__value {
+    font-size: 22px;
+  }
+
+  .about-lead {
+    font-size: 20px;
+  }
+
+  .stack-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .builds-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-cta {
+    padding: 0 10px;
+  }
+
+  .contact-cta h2 {
+    font-size: 24px;
+  }
+
+  .contact-cta p {
+    font-size: 14px;
+  }
+
+  .resume .resume-item {
+    padding-left: 16px;
+  }
+
+  .resume .resume-item h4 {
+    font-size: 16px;
+  }
+
+  .resume .resume-item h5 {
+    font-size: 14px;
+  }
+
+  .about-content {
+    padding: 0 10px;
+  }
+
+  /* Portfolio Page */
+  .portfolio-hero {
+    padding: 100px 0 30px;
+  }
+
+  .portfolio-hero .section-header h1 {
+    font-size: 28px;
+  }
+
+  .portfolio-filters {
+    gap: 6px;
+  }
+
+  .filter-btn {
+    font-size: 12px;
+    padding: 6px 16px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .portfolio-card__content {
+    padding: 16px 20px 20px;
+  }
+
+  .portfolio-card__content h4 {
+    font-size: 16px;
+  }
+
+  /* Showcase */
+  .showcase-card__video {
+    aspect-ratio: 16 / 9;
+  }
+
+  /* Case Study Pages */
+  .case-study-hero {
+    padding: 100px 0 40px;
+  }
+
+  .case-study-hero .hero-tagline {
+    font-size: 28px !important;
+  }
+
+  .case-study-section {
+    padding: 50px 0;
+  }
+
+  .case-study-block h2 {
+    font-size: 22px;
+  }
+
+  .flow-diagram {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flow-arrow-large {
+    transform: rotate(90deg);
+  }
+
+  .architecture-flow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .arch-arrow {
+    transform: rotate(90deg);
+  }
+
+  .tech-stack-list {
+    gap: 8px;
+  }
+
+  .tech-stack-list span {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  /* Hero CTA */
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hero-cta .btn-primary,
+  .hero-cta .btn-outline {
+    padding: 12px 28px;
+    font-size: 12px;
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .contact-cta__links {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .contact-cta__links .btn-primary,
+  .contact-cta__links .btn-outline {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+
+  .project-card__cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .builds-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Small Mobile (480px) */
+@media (max-width: 480px) {
+  .hero-tagline {
+    font-size: 26px !important;
+  }
+
+  .hero-tech-tags {
+    gap: 6px;
+  }
+
+  .hero-tech-tags span {
+    font-size: 10px;
+    padding: 4px 12px;
+  }
+
+  .project-card__flow {
+    display: none;
+  }
+
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-hero .section-header h1 {
+    font-size: 24px;
+  }
+
+  .contact-cta h2 {
+    font-size: 20px;
+  }
 }
