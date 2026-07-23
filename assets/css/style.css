@@ -417,12 +417,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #34b7a7;
 }
 
-@media (max-width: 992px) {
-  .header-social-links {
-    padding: 0 48px 0 0;
-  }
-}
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -835,21 +829,6 @@ section {
   color: #888888;
 }
 
-@media (max-width: 768px) {
-  .metrics-grid {
-    grid-template-columns: 1fr;
-  }
-  .more-projects__grid {
-    grid-template-columns: 1fr;
-  }
-  .project-card {
-    padding: 24px;
-  }
-  .project-card__number {
-    font-size: 48px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Expertise Grid
 --------------------------------------------------------------*/
@@ -916,12 +895,6 @@ section {
   background: #f5f5f5;
   padding: 5px 12px;
   border-radius: 6px;
-}
-
-@media (max-width: 768px) {
-  .expertise-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1013,18 +986,6 @@ section {
   border-radius: 6px;
 }
 
-@media (max-width: 768px) {
-  .timeline {
-    padding-left: 20px;
-  }
-  .timeline-item {
-    padding-left: 20px;
-  }
-  .timeline-item::before {
-    left: -24px;
-  }
-}
-
 /*--------------------------------------------------------------
 # Impact Grid
 --------------------------------------------------------------*/
@@ -1062,18 +1023,6 @@ section {
   color: #888888;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-
-@media (max-width: 768px) {
-  .impact-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .impact-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1148,18 +1097,6 @@ section {
   line-height: 1.6;
 }
 
-@media (max-width: 768px) {
-  .stack-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .stack-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /*--------------------------------------------------------------
 # Builds / GitHub Cards
 --------------------------------------------------------------*/
@@ -1220,12 +1157,6 @@ section {
   display: flex;
   gap: 16px;
   justify-content: center;
-}
-
-@media (max-width: 768px) {
-  .builds-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1751,40 +1682,6 @@ section {
   color: #777777;
   line-height: 1.5;
   margin: 0;
-}
-
-@media (max-width: 992px) {
-  .portfolio-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 576px) {
-  .portfolio-grid {
-    grid-template-columns: 1fr;
-  }
-  .portfolio-hero .section-header h1 {
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 768px) {
-  .flow-diagram {
-    flex-direction: column;
-    align-items: center;
-  }
-  .flow-arrow-large {
-    transform: rotate(90deg);
-  }
-  .architecture-flow {
-    flex-direction: column;
-  }
-  .arch-arrow {
-    transform: rotate(90deg);
-  }
-  .decisions-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -2544,6 +2441,41 @@ section {
 # Responsive - Complete
 --------------------------------------------------------------*/
 
+/* Container constraint for ultra-wide screens */
+@media (min-width: 1440px) {
+  .container, .container-fluid {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    max-width: 800px;
+  }
+
+  .hero-tagline {
+    font-size: 58px;
+  }
+
+  .section-header h2 {
+    font-size: 40px;
+  }
+
+  .section-header p {
+    font-size: 18px;
+  }
+}
+
+/* Large Desktop (1200px - 1439px) */
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .hero-tagline {
+    font-size: 52px;
+  }
+
+  .project-card {
+    padding: 40px;
+  }
+}
+
 /* Tablet & Below (992px) */
 @media (max-width: 992px) {
   section {
@@ -2626,6 +2558,10 @@ section {
   .showcase-card__video {
     aspect-ratio: 16 / 10;
   }
+
+  .more-projects__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Mobile (768px) */
@@ -2643,10 +2579,11 @@ section {
   }
 
   .header-social-links {
-    position: absolute;
-    top: 50%;
-    right: 50px;
-    transform: translateY(-50%);
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    padding-right: 40px;
   }
 
   .header-social-links a {
@@ -2938,9 +2875,8 @@ section {
     gap: 10px;
   }
 
-  .builds-cta {
-    flex-direction: column;
-    align-items: center;
+  .more-projects__grid {
+    grid-template-columns: 1fr;
   }
 }
 
