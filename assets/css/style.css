@@ -1266,6 +1266,58 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Showcase Videos
+--------------------------------------------------------------*/
+.showcase {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.showcase-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.showcase-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+.showcase-card__video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.showcase-card__video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.showcase-card__content {
+  padding: 24px;
+}
+
+.showcase-card__content h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 6px;
+}
+
+.showcase-card__content p {
+  font-size: 14px;
+  color: #777777;
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
 # Case Study Pages
 --------------------------------------------------------------*/
 .case-study-hero {
