@@ -142,23 +142,17 @@ h1, h2, h3, h4, h5, h6 {
 .cta-resume {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.5px;
-  color: #fff !important;
-  background: #34b7a7;
-  border: 2px solid #34b7a7;
-  padding: 8px 22px;
-  border-radius: 50px;
+  color: #34b7a7 !important;
+  background: transparent;
+  border: none;
+  padding: 8px 4px;
   transition: 0.3s;
-  box-shadow: 0 2px 12px rgba(52, 183, 167, 0.3);
 }
 
 .cta-resume:hover {
-  background: #2da394;
-  border-color: #2da394;
-  color: #fff !important;
-  box-shadow: 0 4px 20px rgba(52, 183, 167, 0.45);
-  transform: translateY(-1px);
+  color: #2da394 !important;
 }
 
 @media (max-width: 992px) {
