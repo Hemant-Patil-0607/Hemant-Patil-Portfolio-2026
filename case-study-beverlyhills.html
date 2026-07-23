@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Beverly Hills Desktop — Case Study — Hemant Patil</title>
+  <meta content="Automated Business Operations Desktop Platform case study." name="description">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <h1 class="logo"><a href="index.html">HP.</a></h1>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="index.html#expertise">Expertise</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+      <div class="header-social-links">
+        <a href="https://linkedin.com/in/hemant-patil-57b83230b" class="linkedin"><i class="icofont-linkedin"></i></a>
+        <a href="https://github.com/Hemant-Patil-0607" class="github"><i class="icofont-github"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <button class="mobile-nav-toggle d-lg-none" type="button"><i class="icofont-navigation-menu"></i></button>
+  <div class="mobile-nav-overly"></div>
+  <nav class="mobile-nav d-lg-none">
+    <ul>
+      <li><a href="index.html#work">Work</a></li>
+      <li><a href="index.html#expertise">Expertise</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="resume.html">Resume</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+
+    <section class="case-study-hero">
+      <div class="container" data-aos="fade-up">
+        <a href="index.html#work" class="case-study-back">← Back to Work</a>
+        <p class="hero-name">CASE STUDY</p>
+        <h1 class="hero-tagline" style="font-size: 42px;">Beverly Hills Desktop</h1>
+        <p class="project-card__subtitle">Automated Business Operations Desktop Platform</p>
+        <p class="hero-desc">Cross-platform desktop software designed to transform manual Excel-driven workflows into automated document and data operations.</p>
+      </div>
+    </section>
+
+    <section class="case-study-section">
+      <div class="container" data-aos="fade-up">
+        <div class="case-study-block">
+          <span class="case-study-label">01 — The Problem</span>
+          <h2>Business operations relied on manual Excel processing for data analysis and document generation — a time-consuming, error-prone workflow that didn't scale.</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study-section case-study-section--dark">
+      <div class="container" data-aos="fade-up">
+        <div class="case-study-block">
+          <span class="case-study-label">02 — The Solution</span>
+          <h2>A cross-platform desktop application that automates Excel data processing, PDF document generation, and local data management — all offline-capable.</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study-section case-study-section--light">
+      <div class="container" data-aos="fade-up">
+        <div class="case-study-block">
+          <span class="case-study-label">03 — Key Features</span>
+        </div>
+
+        <div class="decisions-grid" data-aos="fade-up">
+          <div class="decision-card">
+            <h4>Excel Processing</h4>
+            <p>Automated parsing, transformation, and analysis of Excel files with support for complex formulas and data structures.</p>
+          </div>
+          <div class="decision-card">
+            <h4>PDF Automation</h4>
+            <p>Dynamic PDF document generation from processed data, with customizable templates and batch processing capabilities.</p>
+          </div>
+          <div class="decision-card">
+            <h4>Local Database</h4>
+            <p>SQLite-based local storage for offline data persistence, historical tracking, and quick data retrieval.</p>
+          </div>
+          <div class="decision-card">
+            <h4>Cross-platform</h4>
+            <p>Built with Electron to run seamlessly on Windows, macOS, and Linux from a single codebase.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study-section">
+      <div class="container" data-aos="fade-up">
+        <div class="case-study-block">
+          <span class="case-study-label">04 — Architecture</span>
+        </div>
+
+        <div class="architecture-flow" data-aos="fade-up">
+          <div class="arch-step">Electron Shell</div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-step">React UI</div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-step">IPC Layer</div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-step">Node.js Backend</div>
+          <div class="arch-arrow">→</div>
+          <div class="arch-step">SQLite DB</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study-section case-study-section--dark">
+      <div class="container" data-aos="fade-up">
+        <div class="case-study-block">
+          <span class="case-study-label">05 — Engineering Decisions</span>
+        </div>
+
+        <div class="decisions-grid" data-aos="fade-up">
+          <div class="decision-card" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+            <h4 style="color: #fff;">Electron + React + TypeScript</h4>
+            <p style="color: rgba(255,255,255,0.6);">Chosen for cross-platform compatibility, modern UI development, and type safety across the entire stack.</p>
+          </div>
+          <div class="decision-card" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+            <h4 style="color: #fff;">IPC Communication</h4>
+            <p style="color: rgba(255,255,255,0.6);">Designed scalable communication between Electron's main and renderer processes for secure, efficient data flow.</p>
+          </div>
+          <div class="decision-card" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+            <h4 style="color: #fff;">SQLite for Local Storage</h4>
+            <p style="color: rgba(255,255,255,0.6);">Chose SQLite for zero-config, serverless local database that works entirely offline with no external dependencies.</p>
+          </div>
+          <div class="decision-card" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+            <h4 style="color: #fff;">Automated Build Pipeline</h4>
+            <p style="color: rgba(255,255,255,0.6);">Configured electron-builder for automated packaging and distribution across all three desktop platforms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study-section">
+      <div class="container" data-aos="fade-up">
+        <div class="case-study-block">
+          <span class="case-study-label">06 — Outcome</span>
+        </div>
+
+        <div class="outcome-content" data-aos="fade-up">
+          <div class="outcome-item">
+            <span class="outcome-icon">✓</span>
+            <span>Cross-platform desktop app running on Windows, macOS, and Linux</span>
+          </div>
+          <div class="outcome-item">
+            <span class="outcome-icon">✓</span>
+            <span>Automated Excel processing replacing manual data entry workflows</span>
+          </div>
+          <div class="outcome-item">
+            <span class="outcome-icon">✓</span>
+            <span>PDF document generation with customizable templates</span>
+          </div>
+          <div class="outcome-item">
+            <span class="outcome-icon">✓</span>
+            <span>Offline-capable local database for data persistence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study-section case-study-section--light">
+      <div class="container" data-aos="fade-up">
+        <div class="case-study-block">
+          <span class="case-study-label">07 — Tech Stack</span>
+        </div>
+
+        <div class="tech-stack-list" data-aos="fade-up">
+          <span>Electron</span>
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>SQLite</span>
+          <span>Node.js</span>
+          <span>IPC</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,100 +1,563 @@
-<!DOCTYPE html><!---hefkhwkhf-->
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Hemant Portfolio - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  
+  <title>Hemant Patil — Frontend Engineer</title>
+  <meta content="Frontend Engineer building intelligent digital products. React, Next.js, TypeScript, AI Integration." name="description">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+  <!-- Vendor CSS -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Kelly - v2.1.1
-  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
+  <!-- ======= Header / Nav ======= -->
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
-
-      <h1 class="logo"><a href="index.html"></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <h1 class="logo"><a href="index.html">HP.</a></h1>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
 
       <div class="header-social-links">
         <a href="https://linkedin.com/in/hemant-patil-57b83230b" class="linkedin"><i class="icofont-linkedin"></i></a>
         <a href="https://github.com/Hemant-Patil-0607" class="github"><i class="icofont-github"></i></a>
+        <a href="resume.html" class="cta-resume">Let's Talk ↗</a>
       </div>
-
     </div>
+  </header>
 
-  </header><!-- End Header -->
+  <!-- Mobile Nav Toggle -->
+  <button class="mobile-nav-toggle d-lg-none" type="button"><i class="icofont-navigation-menu"></i></button>
+  <div class="mobile-nav-overly"></div>
+  <nav class="mobile-nav d-lg-none">
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="https://linkedin.com/in/hemant-patil-57b83230b">LinkedIn</a></li>
+      <li><a href="https://github.com/Hemant-Patil-0607">GitHub</a></li>
+    </ul>
+  </nav>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">   
+  <main id="main">
 
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Hemant Patil</h1>
-      <h2>Frontend Engineer building intelligent digital products.</h2>
-      <a href="about.html" class="btn-about">About Me</a>
-    </div>
-  </section><!-- End Hero -->
+    <!-- ======= 01 — Hero ======= -->
+    <section id="hero">
+      <div class="container" data-aos="fade-up">
+        <div class="hero-content">
+          <p class="hero-name">HEMANT PATIL</p>
+          <h1 class="hero-tagline">Frontend Engineer building intelligent digital products.</h1>
+          <p class="hero-desc">I design and engineer high-performance web applications, AI-integrated products, and scalable user experiences — from interface to production.</p>
 
-  
+          <div class="hero-tech-tags">
+            <span>React</span>
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>AI Integration</span>
+            <span>FastAPI</span>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#work" class="btn-primary">View My Work</a>
+            <a href="resume.html" class="btn-outline">Download Resume</a>
+          </div>
+
+          <p class="hero-location">Based in Pune, India · Open to Frontend / Product Engineering opportunities</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 02 — Selected Work ======= -->
+    <section id="work">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Selected Work</h2>
+          <p>Four projects that demonstrate product thinking, engineering depth, and AI integration.</p>
+        </div>
+
+        <!-- Project 01: SmartMeet -->
+        <div class="project-card project-card--large" data-aos="fade-up">
+          <div class="project-card__number">01</div>
+          <div class="project-card__content">
+            <h3>SmartMeet</h3>
+            <p class="project-card__subtitle">AI Meeting & Workflow Intelligence</p>
+            <p class="project-card__desc">Turn meetings and existing recordings into structured knowledge, actionable insights, and automated workflows.</p>
+
+            <div class="project-card__meta">
+              <div class="project-card__meta-item">
+                <strong>My Role</strong>
+                <span>Product Architecture · Frontend · AI Integration · Backend Workflow</span>
+              </div>
+              <div class="project-card__meta-item">
+                <strong>Tech</strong>
+                <span>Next.js · FastAPI · Python · WebSockets · LLM APIs</span>
+              </div>
+            </div>
+
+            <div class="project-card__flow">
+              <div class="flow-step">Audio / Transcript Input</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">Transcription</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">Meeting Intelligence</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">Action Items</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">Reports</div>
+              <div class="flow-arrow">→</div>
+              <div class="flow-step">AI Workflows</div>
+            </div>
+
+            <a href="case-study-smartmeet.html" class="btn-case-study">Explore Case Study →</a>
+          </div>
+        </div>
+
+        <!-- Project 02: ZauriScore -->
+        <div class="project-card project-card--large" data-aos="fade-up">
+          <div class="project-card__number">02</div>
+          <div class="project-card__content">
+            <h3>ZauriScore</h3>
+            <p class="project-card__subtitle">AI-Powered Smart Contract Risk Intelligence</p>
+            <p class="project-card__desc">An intelligent security platform designed to analyze smart contracts, detect vulnerabilities, and generate explainable risk assessments.</p>
+
+            <div class="project-card__meta">
+              <div class="project-card__meta-item">
+                <strong>My Role</strong>
+                <span>Product Architecture · AI Integration · Backend · UX</span>
+              </div>
+              <div class="project-card__meta-item">
+                <strong>Tech</strong>
+                <span>Python · FastAPI · CodeBERT · Redis · Celery</span>
+              </div>
+            </div>
+
+            <div class="project-card__highlights">
+              <span>AI-assisted vulnerability detection</span>
+              <span>Risk scoring architecture</span>
+              <span>Multi-tenant security</span>
+              <span>Automated analysis pipeline</span>
+            </div>
+
+            <a href="case-study-zauriscore.html" class="btn-case-study">Explore Case Study →</a>
+          </div>
+        </div>
+
+        <!-- Project 03: Beverly Hills Desktop -->
+        <div class="project-card project-card--large" data-aos="fade-up">
+          <div class="project-card__number">03</div>
+          <div class="project-card__content">
+            <h3>Beverly Hills Desktop</h3>
+            <p class="project-card__subtitle">Automated Business Operations Desktop Platform</p>
+            <p class="project-card__desc">Cross-platform desktop software designed to transform manual Excel-driven workflows into automated document and data operations.</p>
+
+            <div class="project-card__meta">
+              <div class="project-card__meta-item">
+                <strong>Tech</strong>
+                <span>Electron · React · TypeScript · SQLite</span>
+              </div>
+            </div>
+
+            <div class="project-card__highlights">
+              <span>Excel Processing</span>
+              <span>PDF Automation</span>
+              <span>Local Database</span>
+              <span>Cross-platform Architecture</span>
+            </div>
+
+            <a href="case-study-beverlyhills.html" class="btn-case-study">Explore Case Study →</a>
+          </div>
+        </div>
+
+        <!-- Project 04: Vann Harvest -->
+        <div class="project-card project-card--metrics" data-aos="fade-up">
+          <div class="project-card__number">04</div>
+          <div class="project-card__content">
+            <h3>Vann Harvest</h3>
+            <p class="project-card__subtitle">Commerce Experience & Performance Engineering</p>
+
+            <div class="metrics-grid">
+              <div class="metric">
+                <span class="metric__value">+30%</span>
+                <span class="metric__label">Sales Growth</span>
+              </div>
+              <div class="metric">
+                <span class="metric__value">74 → 100</span>
+                <span class="metric__label">SEO Score</span>
+              </div>
+              <div class="metric">
+                <span class="metric__value">76 → 92</span>
+                <span class="metric__label">Performance Score</span>
+              </div>
+            </div>
+
+            <p class="project-card__desc">Developed and optimized customer-facing B2C and B2B digital experiences with a focus on conversion, SEO, responsive UX, and performance.</p>
+
+            <a href="#experience" class="btn-case-study">View Impact →</a>
+          </div>
+        </div>
+
+        <!-- More Projects -->
+        <div class="more-projects" data-aos="fade-up">
+          <h4>More Projects</h4>
+          <div class="more-projects__grid">
+            <a href="portfolio.html" class="more-projects__item">
+              <span class="more-projects__title">SuccessGrids</span>
+              <span class="more-projects__type">WordPress Platform</span>
+            </a>
+            <a href="portfolio.html" class="more-projects__item">
+              <span class="more-projects__title">EdVerse VR/Web</span>
+              <span class="more-projects__type">VR & Web Applications</span>
+            </a>
+            <a href="portfolio.html" class="more-projects__item">
+              <span class="more-projects__title">Selected Experiments</span>
+              <span class="more-projects__type">Open Source / UI Work</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= 03 — What I Build (Expertise) ======= -->
+    <section id="expertise">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>What I Build</h2>
+          <p>Expertise organized around outcomes, not logos.</p>
+        </div>
+
+        <div class="expertise-grid">
+
+          <div class="expertise-card" data-aos="fade-up">
+            <div class="expertise-card__icon"><i class="icofont-code-alt"></i></div>
+            <h4>Frontend Engineering</h4>
+            <p>I build responsive, scalable, and performance-focused digital products.</p>
+            <div class="expertise-card__tags">
+              <span>React.js</span>
+              <span>Next.js</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+              <span>GSAP</span>
+              <span>Responsive Architecture</span>
+              <span>Core Web Vitals</span>
+            </div>
+          </div>
+
+          <div class="expertise-card" data-aos="fade-up">
+            <div class="expertise-card__icon"><i class="icofont-brainstorming"></i></div>
+            <h4>AI-Integrated Products</h4>
+            <p>I integrate AI into real product workflows rather than treating AI as a standalone feature.</p>
+            <div class="expertise-card__tags">
+              <span>LLM APIs</span>
+              <span>AI Workflows</span>
+              <span>Prompt Engineering</span>
+              <span>Structured Outputs</span>
+              <span>Speech & Document Processing</span>
+              <span>GPT / Claude / Gemini</span>
+            </div>
+          </div>
+
+          <div class="expertise-card" data-aos="fade-up">
+            <div class="expertise-card__icon"><i class="icofont-server"></i></div>
+            <h4>Backend & Product Systems</h4>
+            <p>I build the supporting systems required to turn interfaces into working products.</p>
+            <div class="expertise-card__tags">
+              <span>FastAPI</span>
+              <span>Node.js</span>
+              <span>REST APIs</span>
+              <span>WebSockets</span>
+              <span>PostgreSQL</span>
+              <span>MongoDB</span>
+              <span>Prisma</span>
+              <span>Authentication</span>
+            </div>
+          </div>
+
+          <div class="expertise-card" data-aos="fade-up">
+            <div class="expertise-card__icon"><i class="icofont-ui设计"></i></div>
+            <h4>Product & UI Engineering</h4>
+            <p>I bridge design and engineering.</p>
+            <div class="expertise-card__tags">
+              <span>Figma</span>
+              <span>Prototyping</span>
+              <span>Design Systems</span>
+              <span>Accessibility</span>
+              <span>UX Optimization</span>
+              <span>Performance</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 05 — Experience / Career Journey ======= -->
+    <section id="experience">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Experience</h2>
+          <p>A career journey from engineering design to frontend and product engineering.</p>
+        </div>
+
+        <div class="timeline">
+
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-item__date">2024 — 2026</div>
+            <div class="timeline-item__content">
+              <h4>Frontend Developer</h4>
+              <p class="timeline-item__company">Vann Harvest Pvt. Ltd.</p>
+              <p class="timeline-item__focus">B2C / B2B Commerce · Performance · SEO · UX</p>
+              <div class="timeline-item__metrics">
+                <span>+30% Sales</span>
+                <span>SEO 74→100</span>
+                <span>Performance 76→92</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-item__date">2023 — 2024</div>
+            <div class="timeline-item__content">
+              <h4>Web Developer & UI/UX Designer</h4>
+              <p class="timeline-item__company">EdVerse Technology</p>
+              <p class="timeline-item__focus">React · Angular · UI/UX · VR</p>
+              <div class="timeline-item__metrics">
+                <span>40% Usability Improvement</span>
+                <span>3.5s → 1.2s Load Time</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-item__date">2020 — 2021</div>
+            <div class="timeline-item__content">
+              <h4>Design Engineer</h4>
+              <p class="timeline-item__company">Apeksha Engineering Works</p>
+              <p class="timeline-item__focus">Engineering Design · CAD · ISO/ASME Standards</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-item--projects" data-aos="fade-up">
+            <div class="timeline-item__date">Ongoing</div>
+            <div class="timeline-item__content">
+              <h4>Product Engineering</h4>
+              <p class="timeline-item__company">Independent Projects</p>
+              <p class="timeline-item__focus">SmartMeet · ZauriScore · Beverly Hills Desktop · SuccessGrids</p>
+              <p class="timeline-item__desc">AI Products · SaaS · Automation · Desktop Applications</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 06 — Engineering Impact ======= -->
+    <section id="impact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Engineering Impact</h2>
+          <p>Engineering with measurable impact.</p>
+        </div>
+
+        <div class="impact-grid">
+          <div class="impact-card" data-aos="fade-up">
+            <span class="impact-card__value">30% ↑</span>
+            <span class="impact-card__label">E-commerce Sales</span>
+          </div>
+          <div class="impact-card" data-aos="fade-up">
+            <span class="impact-card__value">74 → 100</span>
+            <span class="impact-card__label">SEO Score</span>
+          </div>
+          <div class="impact-card" data-aos="fade-up">
+            <span class="impact-card__value">3.5s → 1.2s</span>
+            <span class="impact-card__label">Page Load Time</span>
+          </div>
+          <div class="impact-card" data-aos="fade-up">
+            <span class="impact-card__value">2.8s → 1.1s</span>
+            <span class="impact-card__label">First Contentful Paint</span>
+          </div>
+          <div class="impact-card" data-aos="fade-up">
+            <span class="impact-card__value">40% ↑</span>
+            <span class="impact-card__label">Usability</span>
+          </div>
+          <div class="impact-card" data-aos="fade-up">
+            <span class="impact-card__value">95+</span>
+            <span class="impact-card__label">PageSpeed Score</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 07 — About ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About</h2>
+        </div>
+
+        <div class="about-content">
+          <p class="about-lead">Engineering interfaces. Designing systems. Building products.</p>
+
+          <p>I'm a Frontend Engineer with 3+ years of experience building web applications and digital experiences.</p>
+
+          <p>My work started at the intersection of UI/UX and frontend engineering, where I focused on responsive interfaces, performance, and usability.</p>
+
+          <p>Today, my work extends into AI-integrated applications and product engineering — combining modern frontend systems with APIs, LLMs, automation, real-time workflows, and backend services.</p>
+
+          <p>I enjoy working on products where engineering, design, and intelligent systems come together to solve practical problems.</p>
+
+          <div class="about-explore">
+            <strong>Currently exploring</strong>
+            <span>AI-native interfaces · Agentic workflows · Developer tools · Intelligent SaaS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 08 — Tech Stack ======= -->
+    <section id="tech-stack">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Tech Stack</h2>
+        </div>
+
+        <div class="stack-grid">
+          <div class="stack-group">
+            <h4>Frontend</h4>
+            <p>React · Next.js · TypeScript · JavaScript · Tailwind · GSAP</p>
+          </div>
+          <div class="stack-group">
+            <h4>AI</h4>
+            <p>LLM APIs · GPT · Claude · Gemini · Prompt Engineering · AI Workflows</p>
+          </div>
+          <div class="stack-group">
+            <h4>Backend</h4>
+            <p>Python · FastAPI · Node.js · REST · WebSockets</p>
+          </div>
+          <div class="stack-group">
+            <h4>Data</h4>
+            <p>PostgreSQL · MongoDB · SQLite · Prisma</p>
+          </div>
+          <div class="stack-group">
+            <h4>Tools</h4>
+            <p>Git · GitHub · Docker · CI/CD · Figma</p>
+          </div>
+          <div class="stack-group">
+            <h4>Additional</h4>
+            <p>WordPress · Electron · Unity3D</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 09 — GitHub / Build Activity ======= -->
+    <section id="builds">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Beyond the UI</h2>
+          <p>I build systems, not just screens.</p>
+        </div>
+
+        <div class="builds-grid">
+          <a href="https://github.com/Hemant-Patil-0607" class="build-card" target="_blank" data-aos="fade-up">
+            <h4>SmartMeet</h4>
+            <p>AI meeting intelligence architecture</p>
+            <div class="build-card__tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>LLM</span>
+              <span>WebSockets</span>
+            </div>
+          </a>
+          <a href="https://github.com/Hemant-Patil-0607" class="build-card" target="_blank" data-aos="fade-up">
+            <h4>ZauriScore</h4>
+            <p>AI smart contract risk engine</p>
+            <div class="build-card__tags">
+              <span>Python</span>
+              <span>CodeBERT</span>
+              <span>FastAPI</span>
+            </div>
+          </a>
+          <a href="https://github.com/Hemant-Patil-0607" class="build-card" target="_blank" data-aos="fade-up">
+            <h4>Beverly Hills</h4>
+            <p>Cross-platform automation platform</p>
+            <div class="build-card__tags">
+              <span>Electron</span>
+              <span>React</span>
+              <span>TypeScript</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="builds-cta">
+          <a href="https://github.com/Hemant-Patil-0607" class="btn-primary" target="_blank">View GitHub ↗</a>
+          <a href="#work" class="btn-outline">Explore Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= 10 — Contact CTA ======= -->
+    <section id="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="contact-cta">
+          <h2>Have a product worth building?</h2>
+          <p>I'm interested in opportunities where I can combine frontend engineering, product thinking, and AI integration to build useful digital products.</p>
+          <p class="contact-cta__tagline">Let's build something intelligent.</p>
+
+          <div class="contact-cta__links">
+            <a href="mailto:hemantp0607@gmail.com" class="btn-primary">Get In Touch</a>
+            <a href="https://linkedin.com/in/hemant-patil-57b83230b" class="btn-outline" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Hemant-Patil-0607" class="btn-outline" target="_blank">GitHub</a>
+            <a href="resume.html" class="btn-outline">Download Resume</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
-  <!-- Vendor JS Files -->
+  <!-- Vendor JS -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS -->
   <script src="assets/js/main.js"></script>
 
 </body>
 
 </html>
-
-
